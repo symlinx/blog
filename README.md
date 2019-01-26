@@ -19,7 +19,7 @@ Installer les différents composants. Ci-dessous un exemple pour les distributio
 ```
 apt install -y git ruby rubygems
 ``` 
-Ajouter votre clé publique SSH dans votre compte GitHub et cinfigurer le client git
+Ajouter votre clé publique SSH dans votre compte GitHub et configurer le client git
 ```
 git config --global user.name "github_username"
 git config --global user.email "my@email.com"
