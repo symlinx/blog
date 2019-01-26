@@ -38,7 +38,7 @@ cd blog/
 ```
 Jekyll se base sur un fichier de configuration _config.yml et des fichiers markdown, qu'il va builder en un site html statique 
 
-Créer un un nouveau post à partir d'un post existantet l'éditer avec votre contenu
+Créer un un nouveau post à partir d'un post existant et l'éditer avec votre contenu
 ```
 cp -p _posts/2019-01-26-welcome-to-jekyll.markdown _posts/2019-01-27-mon-premier-billet.markdown
 vim _posts/2019-01-27-mon-premier-billet.markdown
