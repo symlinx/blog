@@ -17,31 +17,31 @@ Pour éditer ce site, on aura besoin de :
 
 Installer les différents composants. Ci-dessous un exemple pour les distributions basées sur Debian, à adapter selon votre OS
 ```
-apt install -y git ruby rubygems
+$ apt install -y git ruby rubygems
 ``` 
 Ajouter votre clé publique SSH dans votre compte GitHub et configurer le client git
 ```
-git config --global user.name "github_username"
-git config --global user.email "my@email.com"
+$ git config --global user.name "github_username"
+$ git config --global user.email "my@email.com"
 ```
 Installer les gems Ruby
 ```
-gem install jekyll minima bundler
+$ gem install jekyll minima bundler
 ```
 
 ## Comment éditer le blog
 
 Cloner le projet
 ```
-git clone git@github.com:symlinx/blog.git
-cd blog/
+$ git clone git@github.com:symlinx/blog.git
+$ cd blog/
 ```
 Jekyll se base sur un fichier de configuration _config.yml et des fichiers markdown, qu'il va builder en un site html statique 
 
 Créer un un nouveau post à partir d'un post existant et l'éditer avec votre contenu
 ```
-cp -p _posts/2019-01-26-welcome-to-jekyll.markdown _posts/2019-01-27-mon-premier-billet.markdown
-vim _posts/2019-01-27-mon-premier-billet.markdown
+$ cp -p _posts/2019-01-26-welcome-to-jekyll.markdown _posts/2019-01-27-mon-premier-billet.markdown
+$ vim _posts/2019-01-27-mon-premier-billet.markdown
 ```
 
 Builder une nouvelle version du site vers le répertoire docs/ utilisé par GitHub pour servir les fichiers statiques
@@ -58,7 +58,7 @@ Configuration file: /home/mint/github/blog/_config.yml
  ```
 Vérifier le site en local avant de commiter
  ```
-bundle exec jekyll serve
+$ bundle exec jekyll serve
  ```
  
 Commiter et pusher la nouvelle version
@@ -75,4 +75,3 @@ remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To git@github.com:symlinx/blog.git
    ddb06f8..6e9ff4f  master -> master
 ```
- 
