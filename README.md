@@ -58,9 +58,21 @@ Configuration file: /home/mint/github/blog/_config.yml
  ```
 Vérifier le site en local avant de commiter
  ```
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve -d docs/
+Configuration file: /home/mint/github/blog/_config.yml
+            Source: /home/mint/github/blog
+       Destination: ./docs/
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.863 seconds.
+ Auto-regeneration: enabled for '/home/mint/github/blog'
+    Server address: http://127.0.0.1:4000/blog/
+  Server running... press ctrl-c to stop.
+
  ```
- 
+Consulter l'URL http://127.0.0.1:4000/blog/ avec votre navigateur
+
 Commiter et pusher la nouvelle version
  ```
  $ git add -A
@@ -75,3 +87,4 @@ remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To git@github.com:symlinx/blog.git
    ddb06f8..6e9ff4f  master -> master
 ```
+Consulter https://symlinx.github.io/blog
