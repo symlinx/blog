@@ -56,6 +56,11 @@ Configuration file: /home/mint/github/blog/_config.yml
                     done in 0.374 seconds.
  Auto-regeneration: disabled. Use --watch to enable.
  ```
+Vérifier le site en local avant de commiter
+ ```
+bundle exec jekyll serve
+ ```
+ 
 Commiter et pusher la nouvelle version
  ```
  $ git add -A
