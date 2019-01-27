@@ -1,4 +1,4 @@
-# symlinx.github.io
+# symlinx.github.io/blog
 ## Description
 Ce repos contient les données du blog symlinx.github.io. Il est géré avec Jekyll, un générateur de sites et de blogs statiques.
 
